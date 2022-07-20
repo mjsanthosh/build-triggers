@@ -47,7 +47,7 @@ pipeline {
         always {
             mail to: "doodlebluetest07@gmail.com",
             subject: "jenkins build docker image push to ecr",
-            body: "push the image to ecr rep is successfull"
+            body: "push the image to ecr 2 rep is successfull"
         }
     }
 }
